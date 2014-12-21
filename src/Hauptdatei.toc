@@ -1,0 +1,24 @@
+\contentsline {section}{Abbildungsverzeichnis}{5}{section*.5}
+\contentsline {section}{Tabellenverzeichnis}{5}{section*.6}
+\contentsline {section}{Listingverzeichnis}{5}{section*.7}
+\contentsline {section}{Abk\IeC {\"u}rzungsverzeichnis}{6}{section*.8}
+\contentsline {section}{\numberline {1}Einleitung}{7}{section.1}
+\contentsline {subsection}{\numberline {1.1}Aufbau der Arbeit}{7}{subsection.1.1}
+\contentsline {section}{\numberline {2}Social Engineering}{7}{section.2}
+\contentsline {subsection}{\numberline {2.1}Definition}{7}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Alternative zu technischen Methoden}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}G\IeC {\"a}ngige Angrifffe}{8}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Heimarbeit und Helpdesks}{9}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Neue Angestellte}{9}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Angriff auf Mitwisser}{9}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}Kombination sozialer und technischer Angriffe}{10}{subsubsection.2.3.4}
+\contentsline {section}{\numberline {3}Risikoanalyse und -management}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Allgemeines}{10}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Risikomanagement}{11}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Ursachen f\IeC {\"u}r schlechtes Risikomanagement}{12}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Social Engineering als Risikofaktor}{13}{subsection.3.4}
+\contentsline {section}{\numberline {4}Ausblick}{14}{section.4}
+\contentsline {section}{\numberline {5}Fazit}{14}{section.5}
+\contentsline {section}{Literaturverzeichnis}{15}{section.5}
+\contentsline {section}{Anhang}{16}{section*.10}
+\contentsline {section}{Eidesstattliche Erkl\IeC {\"a}rung}{16}{section*.11}
