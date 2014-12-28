@@ -56,7 +56,7 @@ In diesem Kapitel werden exemplarisch drei grundlegende Angriffstechniken vorges
 Dabei werden einige psychologische Grundlagen vorweggenommen, welche in \Kapitel{sec:psychologische_grundlagen} detailliert
 beschrieben werden.
 Zum Verständnis der folgenden Beispiele sind diese Grundlagen nicht notwendig, jedoch werden nach der
-Lektüre des Kapitels \KapitelName{sec:psychologische_grundlagen} die Vorgänge hinter diesen Beispielen noch sehr viel deutlicher erkennbar sein.
+Lektüre des Kapitels \nameref{sec:psychologische_grundlagen} die Vorgänge hinter diesen Beispielen noch sehr viel deutlicher erkennbar sein.
 Bei den im folgenden vorgestellten Angriffskategorien handelt es sich um Phishing, Phone Elicitation und Identitätsbetrug. Diese Herangehensweisen haben viele Gemeinsamkeiten, unterscheiden sich jedoch in der Anonymität des Angreifers.
 
 \subsubsection{Phishing}
@@ -103,9 +103,25 @@ Beim Identitätsbetrug geht die Anonymität des Angreifers gegen null, da er der
 Ein passender Begriff hierfür wäre \fachwort{Real Life Acting} oder \fachwort{Angewandtes Schauspiel}.
 Mit verschiedenen Hilfsmitteln wie Kleidung, Sprache, Körperhaltung, gefälschten Identitätskarten und einem kongruenten Pretext überzeugt der Social Engineer seine Zielpersonen meist bereits ohne Worte von der Echtheit seines Auftretens. \cite{hadnagy}
 
+Die Dauer eines solchen Angriffes kann dabei stark variieren. Meist handelt es sich um eine kurze Infiltration, bei der Positionen von Überwachungskameras bestimmt oder mit Malware verseuchte USB-Sticks  platziert werden. Wie solche Angriffe ablaufen können wird im folgenden Abschnitt kurz erläutert.
+Eine andere Dimension dieser Kategorie ist das, was man im allgemeinen als verdeckten Ermittler, Spion oder \ugspr{Maulwurf} versteht. Dies stellt eine sehr aufwändige und ebenso gefährliche Variante des Social Engineering dar und wird später im Abschnitt \nameref{sec:neue-angestellte} anhand eines kurzen Beispiels erläutert. \cite{hadnagy}\cite{hacking-the-human}
 
+\subsubsection*{Hilfsmittel zum Identitätsbetrug}
+Die zur Verfügung stehenden Mittel sind überraschend simpel. Ziel dieser Methoden ist es allerdings immer unausgesprochene Fragen über die Person des Angreifers automatisch zu beantworten, so dass sich Zielpersonen keine weiteren Gedanken darüber machen, ob es sich bei dem Social Engineer um einen Betrüger handelt. Dabei haben sich vor allem drei charakteristische Muster bewährt.
 
-\subsubsection*{Neue Angestellte}\label{neueangestellte}
+Dabei handelt es sich zum einen um unzureichend geschützte Bereiche eines Gebäudekomplexes. Gemeint sind damit insbesondere Raucherbereiche. Über solche Areale erhält man meist auch ohne Besitz einer Zugangskarte physischen Zugriff auf das Gebäude des Zielunternehmens.
+Die Herausforderung des Social Engineers liegt dabei in erster Linie darin, die Rolle des Mitarbeiters, der von einer Zigerettenpause zurückkehrt, überzeugen zu spielen.
+
+Eine weitere Methode um schnell Zugriff zu einem gesicherten Gebäude zu erhalten oder sich unbemerkt fort zu bewegen ist es, schwere Gegenstände oder einen großen Karton zu tragen. Mitarbeiter hinterfragen meist nicht, was transportiert wird oder um wen es sich bei der Person handelt. Im Gegenteil wird dem Social Engineer meist sogar die Türe aufgehalten.
+
+Die letzte nennenswerte Methode ist das Verwenden einer falschen Zugangskarte. Dafür genügt es die Karte echt aussehen zu lassen. Versucht der Angreifer nun mehrmals vergeblich mit seiner falschen Karte Zugang zu erhalten, kann er sich an den nächsten Mitarbeiter wenden und ihn darum beten, ihn einzulassen.
+\cite{hadnagy}
+
+Vor allem die beiden zum Schluss genannten Methoden machen sich dem im Allgemeinen als \ugspr{Helferinstinkt} bekannten Phänomen zu Nutze. Dies geht stark einher mit dem Bedürfnis gemocht zu werden einher. In \KapitelAndName{sec:psychologische_grundlagen} wird dieses Prinzip nochmals aufgegriffen und genauer erklärt.
+
+% Bezug auf psychologisches Konzept: Menschen wollen gemocht werden!
+
+\subsubsection*{Neue Angestellte}\label{sec:neue-angestellte}
 Dieses Szenario ist zwar etwas seltener anzutreffen jedoch nicht zu unterschätzen, da auf diese
 Weise bereits Zugriffsrechte auf bestimmte Bereiche des Unternehmens oder der Datenbasis gewährt wird.
 Auch in solchen Situationen wird die Hilfsbereitschaft von anderen Mitarbeitern ausgenutzt, denn
