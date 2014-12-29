@@ -5,16 +5,6 @@ In den beiden vorangegangen Kapiteln ist erklärt worden, worum es sich bei Soci
 Der Kern ist dabei stets die zwischenmenschliche Kommunikation. Sie tritt in vielen verschiedenen Variationen
 auf. In \Kapitel{sec:kommunikation} werden daher zunächst wichtige Theorien und Modelle zum Thema Kommunikation vorgestellt. Im weiteren Verlauf befasst sich \Kapitel{sec:vertrauen} genauer mit dem Konzept des Vertrauens und wie sich Vertrauen entwickelt. Zu guter Letzt werden in \Kapitel{sec:instrumente_der_manipulation} wichtige Methoden zur Manipulation mit kurzen Anwendungsbeispielen vorgestellt.
 
-\subsection{Kommunikation}\label{sec:kommunikation}
-
-\subsubsection{Definition}
-% Was ist Kommunikation?
-% Einzelne Modelle erwähnen
-
-\subsubsection{Nonverbale Kommunikation}
-
-\subsubsection{Framing}
-
 \subsection{Vertrauen}\label{sec:vertrauen}
 Dieses Kapitel setzt sich genauer mit dem abstrakten Begriff Vertrauen auseinander. Dabei soll zunächst erklärt werden, worum es sich bei Vertrauen handelt und wie es aus der Entwicklungsgeschichte der Menschheit heraus entstanden ist, welchen Zweck es erfüllt und warum es für den gesellschaftlichen Umgang notwendig ist.
 Im weiteren Verlauf wird erläutert welche Faktoren dafür zuständig sind, das Vertrauensgefühl zu verstärken oder zu hemmen.
@@ -56,34 +46,82 @@ Von Interesse ist für einen Social Engineer dabei vor allem wie und warum Vertr
 Der folgende Abschnitt beschäftigt sich mit den dafür verantwortlichen Faktoren.
 
 \subsubsection{Faktoren für erfolgreiche Vertrauensentwicklung}
-% reziproker Altruismus: Kooperation/Mitfühlen mit Nicht-Verwandten (Menschen/Spezies)
-% altruistisches Verhalten gegenüber Menschen, die man kennt oder sich identifizieren kann (Spiegel) – nicht so bei anonymen Fremden. Vertrauen ist ähnlichen Menschen gegenüber größer – auch vertraute Situation ist förderlich
-% wachsende Gruppengröße erschwert Täuschungsversuche zu erkennen
-% Dunbar-Zahl (150)
-% angeborenes Bedürfnis nach Vertrauen
-%	Vertruaen seit vielen Generatoinen fester Bestandteil
+Dieser Effekt der Kooperation mit nicht-verwandten Menschen ist auch als reziproker Altruismus bekannt. Unter einer altruistischen Verhaltensweise versteht man eine Handlung, die unmittelbar mehr Kosten als Nutzen für die ausübende Person trägt.
+In einer Gesellschaft ist es jedoch nötig, dass dieser Altruismus reziprok ausgeübt wird. Dadurch entsteht langfristig ein größerer Nutzen.
+Die Frage ist dabei, wann dieses Vertrauen entsteht, um eine solche Verhaltensweise zu begünstigen.
 
+Geht man von den relativ kleinen Gruppen aus ist das altruistische Verhalten besonders stark ausgeprägt. Es bestehen nicht viele Möglichkeiten der unbemerkten Täuschung, was die Kooperation untereinander begünstigt.
+Die Problematik des schwindenden Vertrauens ergibt sich mit wachsender Gruppengröße.
+Da die Bekanntschaften zunehmend oberflächlicher werden, wird es für das Individuum schwieriger Täuschungsversuche anderer Gruppenmitglieder zu erkennen.
+
+Damit ist klar, dass das Ausmaß des Vertrauens direkt von der Gruppengröße abhängt. Der Antropologe \name{Robin Dunbar} erfasste, welche Menge an Menschen ein Individuum im gesellschaftlichen Leben überschauen kann.
+Für eine einzelne Person ist es im Schnitt möglich mit bis zu 148 anderen Menschen soziale Beziehungen einzugehen. Diese Feststellung liefert eine Begründung für die Tatsache \ugspr{Fremden} nicht zu vertrauen.
+\cite{dunbar2010how}
+
+Bis vor ein paar tausend Jahren war diese Zahl noch mehr als angemessen, denn selten hatte es der Mensch mit größeren Gruppen zu tun. Doch gerade in den letzten Jahrhunderten sind diese Gruppengrößen rapide angestiegen.
+Dadurch ist es für das Individuum unmöglich zu allen Gruppenmitgliedern (z.B. Großstadt) soziale Beziehungen zu entwickeln.
+Der Mensch zieht daher zur Beurteilung der Vertrauenswürdigkeit verschiedene Merkmale der Person gegenüber heran.
+Bei fremden Personen entscheiden genau diese optischen und charakterlichen Merkmale, ob ihr ein altruistisches Verhalten entgegengebracht wird. Dabei gilt zumeist das Prinzip \fremdwort{mirror and mathcing}.
+Es ist nachweislich, dass altruistische Verhaltensweisen verstärkt gegenüber Menschen, mit denen man sich identifizieren kann, an den Tag gelegt werden.
+Dies gilt nicht für anonyme Fremde.
+
+An dieser Stelle seien einige Beispiele für solche Merkmale genannt.
+\begin{itemize}
+	\item Kleidung
+	\item Herkunft
+	\item Aussehen (Frisur, Hautfarbe, etc.)
+	\item Sprache
+\end{itemize}
+Wie sehr die einzelnen Punkte ausschlaggebend sind variiert von Situation zu Situation.
+Vor allem in gewohnten Umgebungen spielen diese Faktoren eine zunehmend geringere Rolle, wohingegen der Faktor Herkunft an Bedeutung gewinnt, je weiter man sich von der eigenen Heimat entfernt befindet. Ebenso verhält es sich mit der Sprache.
+\cite{liars-and-outliers}
+
+Dies erklärt auch die Erfolgschancen der in \Kapitel{sec:gangige_angriffe} beschriebenen Angriffsmuster.
+Die größten Angriffschancen sind bei einem Angriff mit direkter Konfrontation gegeben.
+Das Opfer hat viele optische Merkmale, die es heranziehen kann, um den Angreifer einzuordnen.
+So genügt meist schon ähnliche Kleidung, um eine altruistische Verhaltensweise auszulösen (z.B. eine Tür aufhalten).
+Mit zunehmender Anonymität bzw. Distanz des Angreifers wird es schwieriger beim Opfer Vertrauen zu erwecken.
 
 \subsubsection{Druckmechanismen}\label{sec:druckmechanismen}
-% Warum wir davon ausgehen, dass andere uns nicht betrügen
-% Zweck der Druckmechanismen
-% Beispiele (2 oder 3) -> Gesellschaftlich, Sicherheitssysteme
+Der Hauptgrund warum wir davon ausgehen können, dass Vertrauen grundsätzlich angemessen ist, sind verschiedene Druckmechanismen, die einzelne Gruppenmitglieder einer Gesellschaft am Abweichen hindern.
+Zweck dieser Druckmechanismen ist es, Täuschungsversuche so wenig lukrativ wie möglich zu gestalten bzw. deren Risiko so zu erhöhen, dass es sich nicht mehr mit dem Nutzen aufwiegen lässt.
+Dabei gibt es verschiedene Arten solcher Mechanismen. Im Folgenden werden gesellschaftliche Druckmechanismen beschrieben.
 
-% Sicherhheitssysteme
-%	Türcshlösser, Alarmanlagen
-%	Verteidigungssysteme: Antivirus-SW
-%	Interventionen: Uniformen (Angriffspotenzial)
-%	Prävention: provisorische Polizeipräsenz
-%	Meldesysteme
-%	
+Bei diesen handelt es sich um moralische und institutionelle Druckmechanismen sowie Reputationsdruck.
+Der moralische Druck hält uns bspw. vom Stehlen ab, da es von unseren Moralvorstellungen als falsch angesehen wird das Eigentum Anderer zu missachten.
+Bei institutionellen Druckmechanismen handelt sich Regeln und Gesetzen einer bestimmten Institution.
+Es kann sich bei dieser um ein Unternehmen, einen Verein oder einen Staat handeln.
+Abweichungen von diesen Regeln und Gesetzen gehen mit Bestrafung einher. Dieser Strafvollzug dient dabei als Abschreckung und lässt das Risiko einer Abweichung steigen.
+Der Reputationsdruck hingegen bezieht sich auf die Reaktion anderer Personen auf die gewählte Handlungsweise.
+Dieser Druck hat die Ursache, dass ein Individuum durch Abweichung von der Gruppennorm einen Schaden am eigenen Ruf zu fürchten hat.
 
-%	schwindender Sicherheitszuwachst (beschränkt vs. linear)
-%	stellen zudem großes Potenzial zur Täsuchung dar!
+In eine andere Richtung gehen Sicherheitssysteme. Das was wir jedoch im allgemeinen unter Sicherheitssystemen verstehen sind sog. Verteidigungssysteme wie bspw. Türschlösser, Alarmanlagen oder Antivirus-Software.
+Diese Installationen sollen Menschen physisch davon abhalten einen Angriff zu unternehmen.
 
-% Druckmechanismen sind kein Schutz, sondern dienen vielmehr der Schadensreduzierung
-\subsubsection{Abweichler vom System}
+Neben Verteidigungssystemen kommen auch präventive Maßnahmen zum Einsatz.
+Darunter ist z.B. provisorische Polizeipräsenz oder Sicherheitspersonal zu verstehen.
+Durch bloße Anwesenheit von wird dadurch die Risikoeinschätzung direkt beeinflusst.
 
+Eine andere Art Sicherheitssysteme sind sog. Interventionen. Zu solchen zählen z.B. Wachpatrouillen, Überwachungskameras oder Authentifizierungssysteme.
+Um die Kooperation der Allgemeinheit zu diesbezüglich zu fördern werden Uniformen, Zugangskarten oder ähnliches genutzt.
 \cite{liars-and-outliers}
+
+Abschließend sei zu diesen Sicherheitssystemen zu sagen, dass es sich dabei meist nicht um einen direkten Schutz handelt, sondern vielmehr um eine Art Schadensreduzierung.
+Viele dieser Druckmittel greifen meist erst während der Abweichung und nicht bereits davor (Ausnahme: Präventive Maßnahmen).
+Außerdem bieten diese \ugspr{Sicherheiten} gleichzeitig auch gefährliche Angriffspotenziale.
+Oft genügt bereits das Tragen einer Uniform um unangebrachtes Vertrauen zu erwecken (s. \Kapitel{sec:autorität-und-befehle}). Die zweifelhafte Nützlichkeit von Zugangskarten würde bereits im Abschnitt \nameref{sec:hilfsmittel-zum-identitätsbetrug} in \Kapitel{sec:identitätsbetrug} aufgezeigt.
+
+\subsection{Kommunikation}\label{sec:kommunikation}
+
+\cite{duden}
+
+\subsubsection{Definition}
+% Was ist Kommunikation?
+% Einzelne Modelle erwähnen
+
+\subsubsection{Nonverbale Kommunikation}
+
+\subsubsection{Framing}
 
 \subsection{Instrumente der Manipulation}\label{sec:instrumente_der_manipulation}
 Bei Social Engineering geht es wie eingangs in \Kapitel{sec:social_engineering} bereits erwähnt vordergründig
@@ -100,7 +138,7 @@ Intensität der Wirkung aufgezeigt und eine Angriffsmöglichkeit im Social Engin
 Diese Mechanismen liegen zunächst alle dem Prinzip der Automatismen zugrunde, welches in folgenden Kapitel beschrieben wird.
 
 \subsubsection{Automatismen}\label{sec:automatismen}
-In der Psychologie versteht man unter einem Automatismus eine vom Bewusstsein nicht kontrolliert ablaufende Tätigkeit.
+In der Psychologie versteht man unter einem Automatismus eine vom Bewusstsein nicht kontrolliert ablaufende Tätigkeit. \cite{duden}
 Bei Lebewesen handelt es sich dabei im Speziellen um fest im Unterbewusstsein verankerte Verhaltensmuster.
 Entwickelt haben sich diese Mechanismen im Laufe der Evolution und sind somit ein fester Bestandteil der Psyche aller Lebewesen.
 Diese Automatismen bestehen im Wesentlichen aus zwei Teilen. Zunächst ist ein bestimmtes Ereignis nötig. Dabei kann sich um einfache Reize aller Art handeln (visuell, akustisch, haptisch, etc.) oder auch um ein
@@ -153,7 +191,7 @@ Das Gespräch könnte wie folgt ablaufen:
 So oder so ähnlich kann sich ein solches Gespräch abspielen. Natürlich hängt es auch stark von den schauspielerischen Fähigkeiten des Angreifers ab, ob eine solche Aktion glückt.
 Die Essenz dieses Angriffs ist und bleibt jedoch das Konsistenz-Prinzip. Der Rezeptionist macht hierbei eine Aussage über seine Fähigkeit Menschen eine gewünschte Auskunft zu geben. Das Nicht-Preisgeben der Information würde demnach gegen das Konsistenz-Bewusstsein der Zielperson verstoßen. Wie stark dieses Bewusstsein ist, hängt wie im vorigen Kapitel zur Reziprozität beschrieben ebenfalls von der vorangegangenen Handlung ab. In diesem Fall handelt es sich dabei um die Intensität des gemachten Statements.
 
-Faktoren, die die Auswirkungen eines solchen Statements verstärken, sind Aktivität des Opfers (formuliert es das Statement selbst oder bestätigt es nur?), Öffentlichkeit (hören andere Leute zu?) und auch die Ungezwungenheit (hat das Opfer das Gefühl zu einem Statement gedrängt?). \cite{cialdini}
+Faktoren, die die Auswirkungen eines solchen Statements verstärken, sind Aktivität des Opfers (formuliert es das Statement selbst oder bestätigt es nur?), Öffentlichkeit (hören andere Leute zu?) und auch die Ungezwungenheit (hat das Opfer das Gefühl zu einem Statement gedrängt worden zu sein?). \cite{cialdini}
 
 Anders als im bereits aufgeführten Beispiel, kann auch eine genaue Analyse der Zielperson Angriffspunkte offenlegen. %Hierfür ein Beipsiel
 
