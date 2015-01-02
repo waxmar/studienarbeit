@@ -134,7 +134,6 @@ Eine eher technische, dafür jedoch sehr allgemeingültige Einordnung des Kommun
 	\label{fig:shannon-weaver-modell}
 \end{figure}
 
-
 Dieses Modell verdeutlicht zunächst, dass an der Kommunikation stets zwei Instanzen beteiligt sind (Informationsquelle und Ziel).
 Die Informationsquelle erzeugt dabei eine Botschaft, welche für das Ziel bestimmt ist und von diesem interpretiert wird.
 Diese Kommunikationspartner Senden bzw. Empfangen mittels entsprechender Apperate, welche die zu sendende Botschaft in Signale umwandelt (und umgekehrt).
@@ -194,19 +193,87 @@ Die übergeordnete Partei, welche die Art der Kommunikation bestimmt, ist dabei 
 % komplementäre, symmetrische Kommunikation
 % evtl. Parallelen zum SE aufführen
 
-\subsubsection{Nonverbale Kommunikation}\label{sec:nonverbale-kommunikation}
 
-\cite{hadnagy}
-\cite{human-hacking}
-\cite{grundlagen-der-kommunikation}
 
 \subsubsection{Kommunikationsmodelle}
 
-\subsubsection*{Berlo Modell}
+Diese von \name{Watzlawick} genannten Axiome bilden eine gute Grundlage für erfolgreiches Social Engineering.
+Jedoch sind diese Axiome selbst nur schwer auf konkrete Situationen übertragbar.
+Aus diesem Grund bietet es sich an, sich verschiedenerer darauf aufbauender Modelle zu bedienen.
+In diesem Abschnitt werden dafür exemplarisch das SMCR-Modell von \name{David Berlo} und die Transaktionsanalyse von \name{Eric Berne} vorgestellt.
+
+\subsubsection*{Berlos SMCR-Modell}
+
+In der Einleitung des Kapitels \nameref{sec:kommunikation} wurde das Kommunikationsmodell nach \name{Shannon} und \name{Weaver} erwähnt.
+Dieses sehr allgemeine und eher technisch anmutende Modell wurde 1960 von \name{David Berlo} um einige Aspekte erweitert.
+Wie in Abbildung \ref{fig:smcr-model-berlo} zu sehen ist, werden die Hauptkategorien Quelle, Botschaft, Kanal und Empfänger wiederum konkreter definiert.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.6\textwidth]{abb/berlos-smcr-model.jpg}
+	\caption{SMCR-Modell von Berlo}
+	\label{fig:smcr-model-berlo}
+\end{figure}
+
+Bei Sender und Empfänger werden verschiedene individuelle Faktoren berücksichtigt wie z.B. Kultur, Wissen oder die eigenen Kommunikationskenntnisse.
+Auch die übermittelte Nachricht selbst ist unterteilt in verschiedene Merkmale.
+Wichtig ist jedoch vor allem die Einordnungsmöglichkeit der Kommunikationskanäle, welche über das Vorhandensein verschiedener der fünf Sinnen ermöglicht wird (Sehen, Hören, Fühlen, Riechen und Schmecken).
+Abhängig vom gewählten Kanal fallen somit manche dieser Merkmale weg.
+Bspw. werden bei einem Telefongespräch nur die beiden Merkmale Sehen und Hören berücksichtigt.
+Bei einer E-Mail wird der Kommunikationskanal zusätzlich auf lediglich das Sehen eingeengt.
+\cite{human-hacking}
+
+Für einen Social Engineer sind dies wichtige Vorüberlegungen, denn die Intensität der Wahrnehmung solcher Merkmale verstärkt sich, wenn andere Merkmalsausprägungen gar nicht mehr wahrgenommen werden.
+Auch \name{Christopher Hadnagy} nutzt dieses Modell und erweitert es noch durch die Komponente \fachwort{Feedback}, d.h. das was der Angreifer als Antwort auf eine erfolgreiche Kommunikation erwartet.
+\cite{human-hacking}
 
 \subsubsection*{Transaktionsanalyse}
 
+Coming soon...
+
+\subsubsection{Nonverbale Kommunikation}\label{sec:nonverbale-kommunikation}
+
+Die Nonverbale Kommunikation ist einer der wichtigsten Kommunikationskanäle.
+Schätzungen einiger Experten zufolge macht die Nonverbale Kommunikation über 50\% des gesamten Informationsgehalts einer persönlich übermittelten Nachricht aus.
+Dementsprechend ist die Deutung der Informationen dieses Kanals entsprechend komplex, denn zur Nonverbalen Kommunikation zählen alle körperlichen Gesten, Bewegungen und Haltungen sowie auch akustische Eigenschaften, d.h. neben dem tatsächlich Gesagten, wird der Art wie etwas gesagt ebenfalls eine Bedeutung zugewiesen.
+\cite{hadnagy}
+
+Im einleitenden Abschnitt \nameref{sec:definition} war bereits die Rede von den durch \name{Watzlawick} definierten Axiomen der Kommunikation.
+Dabei geht er insbesondere auf sog. \fachwort{Analoge Kommunikation} ein, d.h. \fachwort{extraverbale}, \fachwort{paraverbale} und \fachwort{nonverbale} Eigenschaften ein.
+
+Als extraverbale Spracheigenschaften bezeichnet man individuelle Stimmeigenschaften, geschlechts- oder altersbedingte Eigenschaften sowie Dialekte und Akzente.
+Aus diesen lassen sich bereits Rückschlüsse auf die sprechende Person liefern, da sie jedoch im Laufe einer Kommunikation nicht variieren können, werden sie hier außen vor gelassen.
+\cite{grundlagen-der-kommunikation}
+
+Interessanter sind die paraverbalen Sprecheigenschaften zu denen Merkmale wie Lautheit, Tonhöhe, Sprechgeschwindigkeit und Sprachmelodie gehören.
+Diese Eigenschaften sind im englischsprachigen Raum auch durch RSVP abgekürzt (rythm, speed, volume, pitch).
+Über bestimmte Ausprägungen dieser Merkmale werden zu dem Gesprochen hinzu Botschaften übermittelt.
+So kann eine laute Stimme die Wut über den Gesprächspartner vermitteln, schnelles Sprechen mit hoher Stimme kann ein Zeichen von Unsicherheit sein und lange Pausen können signalisieren, dass der Sprecher nicht die Wahrheit spricht.
+Besonders wichtig ist hierbei das Wort \ugspr{kann}.
+Die Bedeutung ist grundsätzlich situations- und personenabhängig.
+\cite{hadnagy}
+\cite{grundlagen-der-kommunikation}
+
+Die mitunter entscheidendsten Eigenschaften sind da eigentlichen nonverbalen Merkmale.
+Diese können in die Kategorien Mimik, Gestik und Körperhaltung unterteilt werden.
+Aus der Körperhaltung (z.B. Fußstellungen oder Armhaltungen) kann man den Status zwischenmenschlicher Beziehungen während einer Unterhaltung ableiten.
+Verschiedene Gesichtsausdrücke lassen außerdem eine ziemliche exakte Einordnung von Gefühlszuständen zu.
+Auch aus Arm- oder Handbewegungen können Rückschlüsse auf eine Person und ihren aktuellen Gefühlszustand gemacht werden.
+An dieser Stelle sei ein weiteres mal betont, dass diese Merkmale nicht immer eine Bedeutung haben.
+Auch hier können bestimmte Merkmalsausprägungen zur Basislinie der Person gehören und somit keine konkreten Aussagen zulassen.
+\cite{hadnagy}
+\cite{grundlagen-der-kommunikation}
+
+Abschließend sei erwähnt, dass das Wissen über die nonverbale Kommunikation nicht nur zum Lesen von Gefühlszuständen genutzt werden kann.
+Durch bewusste Kontrolle des Körpers oder der Stimme können gewünschte Stimmungen erzeugt werden.
+Dieses Können ist vor allem für den Aufbau eines Vertrauensverhältnisses nützlich.
+Weiß man solche Zeichen zu interpretieren und umzusetzen, ist es ein leichtes mittels \ugspr{mirror and match} ein Vertrauensverhältnis aufzubauen.
+\cite{human-hacking}
+\cite{hadnagy}
+\cite{hacking-the-human}
+
 \subsection{Instrumente der Manipulation}\label{sec:instrumente_der_manipulation}
+
 Bei Social Engineering geht es wie eingangs in \Kapitel{sec:social_engineering} bereits erwähnt vordergründig
 nicht darum, den Zugriff auf sensible Daten durch gezielte technische Angriffe gewährt zu bekommen,
 für die man selbst keine Berechtigung verfügt.
@@ -277,7 +344,7 @@ Faktoren, die die Auswirkungen eines solchen Statements verstärken, sind Aktivi
 
 Anders als im bereits aufgeführten Beispiel, kann auch eine genaue Analyse der Zielperson Angriffspunkte offenlegen. %Hierfür ein Beipsiel
 
-\subsubsection{Sympathie}
+\subsubsection{Sympathie}\label{sec:sympathie}
 Die in den vorangegangenen Kapiteln beschriebenen Mechanismen lassen sich auch mit anderen \ugspr{Techniken} kombinieren. Es ist allgemein bekannt, dass es besonders solchen Menschen leicht fällt uns zu Manipulieren, welche uns sympathisch sind.
 Sympathie wirkt wie ein sozialer Katalysator bei der Überzeugung anderer Menschen. 
 An dieser Stelle soll zunächst erläutert werden, wie Sympathie entsteht und von welchen Faktoren sie abhängt.
@@ -297,4 +364,11 @@ Es ist aus diesem Grund wichtig zu wissen, wann eine bestimmte Person für eine 
 
 Die Autoritätshörigkeit, wie wir sie kennen, ist deshalb so oft vorzufinden, da Menschen unserer Gesellschaft darauf gedrillt werden Anweisungen von Autoritäten zu folgen, da diese über mehr Wissen, Macht oder Erfahrung verfügen. Zusätzlich werden Autoritäten auch zur Vereinfachung der eigenen Entscheidungsfindung herangezogen. \cite{cialdini}
 
+\subsubsection{Soziale Bewährtheit}\label{sec:soziale-bewährtheit}
+Coming soon...
+\cite{cialdini}
+
+\subsubsection{Knappheit}\label{sec:knappheit}
+Coming soon...
+\cite{cialdini}
 % andere Mechismen: Knappheit, soziale Bewährtheit,...
